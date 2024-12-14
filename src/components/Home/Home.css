@@ -1,0 +1,11 @@
+.foto-home{
+    width: 18rem;
+    border-radius: 8px;
+}
+.container-home{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 2rem;
+   
+}

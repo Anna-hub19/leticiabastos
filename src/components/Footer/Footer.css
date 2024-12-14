@@ -1,0 +1,13 @@
+.container-footer{
+display: flex;  
+justify-content: space-between;
+align-items: center;
+padding: 1rem;
+background-color: #74847d;
+height: 5vh;
+color: #fff9f0;
+}
+
+.img-logo-footer{
+    width: 10rem ;
+}

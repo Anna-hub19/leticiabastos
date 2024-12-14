@@ -1,0 +1,26 @@
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #74847d;
+    height: 5vh;
+    color: #fff9f0;
+}
+.img-logo-header{
+    width: 4rem;
+}
+.container-links{
+    display: flex;
+    gap: 1rem;
+   
+}
+.links{
+    color: #fff9f0;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+.links:hover{
+    color: #c6ddd3;
+    
+}
