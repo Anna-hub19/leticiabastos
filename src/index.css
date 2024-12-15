@@ -8,7 +8,10 @@ html,body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #fff9f0;
   color: #74847d;
-  height: 100%;
+ 
+}
+*{
+  box-sizing: border-box;
 }
 
 code {

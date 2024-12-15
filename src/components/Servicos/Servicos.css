@@ -5,7 +5,6 @@
 }
 .foto-servicos2{
     width: 15rem;
-    
     border-radius: 8px;
 }
 .container-servicos{
@@ -22,4 +21,43 @@
 }
 h3{
     text-align: justify;
+}
+@media (max-width: 600px){
+    .container-servicos-div{
+        flex-wrap: wrap;
+        align-items: center;
+       flex-direction: column;
+    }
+    .foto-servicos{
+        width: 15rem;
+        height: 9rem;
+        border-radius: 8px;
+    }
+    .foto-servicos2{
+        width: 10rem;
+        border-radius: 8px;
+    }
+    .container-servicos{
+   
+        margin: 0rem;
+    }
+    .container-servicos-div{
+        margin: 1rem;
+        padding: 1rem;
+    }
+}
+@media (max-width: 900px){
+    .container-servicos-div{
+        flex-wrap: wrap;
+        align-items: center;
+       flex-direction: column;
+    }
+    .container-servicos{
+   
+        margin: 0rem;
+    }
+    .container-servicos-div{
+        margin: 1rem;
+        padding: 1rem;
+    }
 }

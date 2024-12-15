@@ -7,7 +7,7 @@ function Servicos() {
         <>
             <Header />
             <div className='container-servicos'>
-                <h1>Serviços:</h1>
+                <h1>Serviços</h1>
 
                 <div className='container-servicos-div'>
                     <img className='foto-servicos' src='./imagens/fotoServicos.jpg' />

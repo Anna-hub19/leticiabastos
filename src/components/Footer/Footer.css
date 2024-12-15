@@ -4,10 +4,16 @@ justify-content: space-between;
 align-items: center;
 padding: 1rem;
 background-color: #74847d;
-height: 5vh;
+height: 10vh;
+width: 100%;
 color: #fff9f0;
 }
 
 .img-logo-footer{
     width: 10rem ;
+}
+@media (max-width: 900px){
+    .container-footer{
+        font-size: 0.8rem;
+    }
 }

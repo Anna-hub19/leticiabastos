@@ -1,10 +1,11 @@
 .container-header{
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
     background-color: #74847d;
-    height: 5vh;
+    height: 10vh;
     color: #fff9f0;
 }
 .img-logo-header{
@@ -23,4 +24,9 @@
 .links:hover{
     color: #c6ddd3;
     
+}
+@media (max-width: 400px){
+ .links{
+    font-size: 0.9rem;
+ }
 }

@@ -1,12 +1,31 @@
 .foto-sobreMim{
     width: 17rem;
+    height: 25rem;
     border-radius: 8px;
 }
 .container-sobreMim{
     display: flex;
     justify-content: space-between;
-    margin: 2.3rem;
+    gap: 3rem;
+    padding: 2.2rem;
+    align-items: center;
 }
-.container-sobreMim-paragrafo{
-    padding: 0rem 3rem 0rem 3rem;
+
+.sobreMim-tablet{
+    display: none;
+}
+@media (max-width: 900px){
+    .container-sobreMim{
+        flex-wrap: wrap;
+       align-items: center;
+       flex-direction: column;
+       gap: 1rem;
+       padding: 1rem;
+    }
+    .sobreMim-pc{
+        display: none;
+    }
+    .sobreMim-tablet{
+        display: block;
+    }
 }

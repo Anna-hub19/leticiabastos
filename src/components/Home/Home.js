@@ -7,11 +7,15 @@ function Home(){
         <>
         <Header/>
         <div className='container-home'>
+            <div>
+            <h1 className='nome-tablet'>Letícia Bastos Oliveira</h1>
+            <h2 className='nome-tablet'>Psicóloga infantil <br/>CRP 19/4835 </h2>
+            </div>
             <img className='foto-home' src='./imagens/fotoHome.jpg'/>
             <div className='container-home-titulo'>
-                <h1>Letícia Bastos Oliveira</h1>
-                <h2>Psicóloga infantil <br/>CRP 19/4835 </h2>
-                <h3>  Especializada em Análise do Comportamento Aplicada (ABA) ao Autismo.</h3>
+                <h1 className='nome-pc'>Letícia Bastos Oliveira</h1>
+                <h2 className='nome-pc'>Psicóloga infantil <br/>CRP 19/4835 </h2>
+                <h4>  Especializada em Análise do Comportamento <br/> Aplicada (ABA) ao Autismo.</h4>
                 <h1>Contato</h1>
                 <div>
                     <a className='links-home-contato' href='https://instagram.com/psi.leticiaba' target="_blank"> instagram</a>

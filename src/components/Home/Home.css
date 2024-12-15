@@ -1,5 +1,6 @@
 .foto-home{
     width: 18rem;
+    height: 26rem;
     border-radius: 8px;
 }
 .container-home{
@@ -7,5 +8,24 @@
     justify-content: center;
     gap: 3rem;
     padding: 2rem;
-   
+    flex-wrap: wrap;
+    flex: 1;
+}
+.sobreMim-tablet{
+    display: none;
+}
+.nome-tablet{
+    display: none;
+}
+@media (max-width: 700px){
+    .nome-tablet{
+        display: block;
+    }
+    .nome-pc{
+        display: none;
+    }
+    .container-home{
+        gap: 1rem;
+    
+    }
 }
