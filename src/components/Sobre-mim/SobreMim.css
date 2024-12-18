@@ -7,8 +7,9 @@
     display: flex;
     justify-content: space-between;
     gap: 3rem;
-    padding: 2.2rem;
+    padding: 2.5rem;
     align-items: center;
+    flex: 1;
 }
 
 .sobreMim-tablet{
