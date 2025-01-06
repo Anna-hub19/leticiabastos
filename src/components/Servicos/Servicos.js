@@ -32,7 +32,7 @@ function Servicos() {
                             Com atendimentos frequentes e estruturados, o foco está em aproveitar ao máximo o potencial de aprendizado da criança. Com um plano individualizado, a terapia intensiva utiliza técnicas baseadas em evidências científicas para trabalhar comunicação, interação social, habilidades acadêmicas, autonomia e comportamentos adaptativos.
 
                             Nosso objetivo é oferecer às crianças as ferramentas necessárias para conquistar mais independência e qualidade de vida, sempre respeitando o ritmo e as necessidades de cada uma.
-
+                            <br />Idade: De 1 a 5 anos
 
                         </h3>
                     </div>
