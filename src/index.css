@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  box-sizing: border-box;
+}
 html,body {
   margin: 0;
   font-family: "Montserrat", serif;
@@ -8,13 +11,9 @@ html,body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #fff9f0;
   color: #74847d;
+
  
 }
-*{
-  box-sizing: border-box;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
+

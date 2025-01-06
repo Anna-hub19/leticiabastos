@@ -12,8 +12,9 @@
     flex: 1;
 }
 .img-logo-links{
-    width: 3rem;
+    width: 2rem;
 }
+
 .div-links-home{
     display: flex;
     justify-content: center;
@@ -35,5 +36,35 @@
     .container-home{
         gap: 1rem;
     
+    }
+}
+@media (max-width: 900px){
+    .nome-tablet{
+        display: block;
+    }
+    .nome-pc{
+        display: none;
+    }
+    .container-home{
+        gap: 3rem;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-bottom: 5rem;
+    }
+}
+@media (min-height: 1366px){
+    .nome-tablet{
+        display: block;
+    }
+    .nome-pc{
+        display: none;
+    }
+    .container-home{
+        gap: 5rem;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       margin-bottom: 7.2rem;
     }
 }

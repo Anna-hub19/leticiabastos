@@ -23,7 +23,7 @@ function Servicos() {
 
                 </div>
                 <div className='container-servicos-div'>
-                    <img className='foto-servicos2' src='./imagens/fotoServicos2.jpg' />
+                    <img className='foto-servicos' src='./imagens/fotoServicos2.jpg' />
                     <div>
                         <h2>Terapia Intensiva em ABA</h2>
                         <h3>
