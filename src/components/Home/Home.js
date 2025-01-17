@@ -10,12 +10,13 @@ function Home(){
             <div>
             <h1 className='nome-tablet'>Letícia Bastos Oliveira</h1>
             <h2 className='nome-tablet'>Psicóloga infantil <br/>CRP 19/4835 </h2>
+            <h4 className='nome-tablet'>  Especialista em Análise do Comportamento <br/> Aplicada (ABA) ao Autismo.</h4>
             </div>
             <img className='foto-home' src='./imagens/fotoHome.jpg'/>
             <div className='container-home-titulo'>
                 <h1 className='nome-pc'>Letícia Bastos Oliveira</h1>
                 <h2 className='nome-pc'>Psicóloga infantil <br/>CRP 19/4835 </h2>
-                <h4>  Especialista em Análise do Comportamento <br/> Aplicada (ABA) ao Autismo.</h4>
+                <h4 className='nome-pc'>  Especialista em Análise do Comportamento <br/> Aplicada (ABA) ao Autismo.</h4>
                 <h1>Contato</h1>
                 <div className='div-links-home'>
                     <a className='links-home-contato' href='https://instagram.com/psi.leticiaba' target="_blank"> <img src="./imagens/LogoInstagram.png" className='img-logo-links'/></a>
